@@ -44,12 +44,16 @@
         cellFrame.size.width / 2 - 30, 20
     );
     
-    inputNameAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+    inputNameAttributes = [NSMutableDictionary dictionaryWithObjectsAndKeys:
         systemFont,			  NSFontAttributeName,
         leftAlign,			  NSParagraphStyleAttributeName,
         [NSColor labelColor], NSForegroundColorAttributeName,
         nil
     ];
+    
+    if (self.isHighlighted) {
+        [inputNameAttributes setValue:[NSColor alternateSelectedControlTextColor] forKey:NSForegroundColorAttributeName];
+    }
     
     [[data inputName] drawInRect:inputNameFrame withAttributes:inputNameAttributes];
     
@@ -59,13 +63,17 @@
         cellFrame.size.width / 2 - 30, 20
     );
 
-    outputNameAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+    outputNameAttributes = [NSMutableDictionary dictionaryWithObjectsAndKeys:
         systemFont,			  NSFontAttributeName,
         rightAlign,			  NSParagraphStyleAttributeName,
         [NSColor labelColor], NSForegroundColorAttributeName,
         nil
     ];
 
+    if (self.isHighlighted) {
+        [outputNameAttributes setValue:[NSColor alternateSelectedControlTextColor] forKey:NSForegroundColorAttributeName];
+    }
+    
     [[data outputName] drawInRect:outputNameFrame withAttributes:outputNameAttributes];
     
     
@@ -80,7 +88,12 @@
     [arrow lineToPoint:NSMakePoint (arrowCenter.x - 15, arrowCenter.y - 1)];
     [arrow closePath];
 
-    [[NSColor labelColor] set];
+    if (self.isHighlighted) {
+        [[NSColor alternateSelectedControlTextColor] set];
+    } else {
+        [[NSColor labelColor] set];
+    }
+    
     [arrow fill];
     
     
@@ -89,13 +102,17 @@
         cellFrame.size.width, cellFrame.size.height - 20
     );
     
-    descriptionAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+    descriptionAttributes = [NSMutableDictionary dictionaryWithObjectsAndKeys:
         smallSystemFont,      NSFontAttributeName,
         centerAlign,          NSParagraphStyleAttributeName,
         [NSColor labelColor], NSForegroundColorAttributeName,
         nil
     ];
 
+    if (self.isHighlighted) {
+        [descriptionAttributes setValue:[NSColor alternateSelectedControlTextColor] forKey:NSForegroundColorAttributeName];
+    }
+    
     [[data description] drawInRect:descriptionFrame withAttributes:descriptionAttributes];
 }
 
