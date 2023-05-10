@@ -18,7 +18,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>NSDocumentClass</key>
-			<string>PatchbayDocument</string>
+			<string>RouterDocument</string>
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>

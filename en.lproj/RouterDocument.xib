@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="PatchbayDocument">
+        <customObject id="-2" userLabel="File's Owner" customClass="RouterDocument">
             <connections>
                 <outlet property="addPatchButton" destination="57" id="58"/>
                 <outlet property="documentWindow" destination="5" id="45"/>

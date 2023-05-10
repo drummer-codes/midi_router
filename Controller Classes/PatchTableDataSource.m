@@ -1,13 +1,13 @@
 #import "PatchTableDataSource.h"
 #import "Patch.h"
 #import "PatchTableCellData.h"
-#import "PatchbayDocument.h"
+#import "RouterDocument.h"
 
 
 @implementation PatchTableDataSource
 
 
-- (PatchTableDataSource*)initWithDocument:(PatchbayDocument*)newDocument patchArray:(NSMutableArray*)newPatchArray;
+- (PatchTableDataSource*)initWithDocument:(RouterDocument*)newDocument patchArray:(NSMutableArray*)newPatchArray;
 {
     self = [super init];
     
