@@ -9,12 +9,12 @@
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>mpb</string>
+				<string>mdrt</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
 			<string>DocIcon</string>
 			<key>CFBundleTypeName</key>
-			<string>MIDI Patchbay document</string>
+			<string>MIDI Router document</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>NSDocumentClass</key>

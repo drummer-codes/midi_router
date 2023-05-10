@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21701"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -42,7 +43,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="122" y="420" width="938" height="436"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="3840" height="2135"/>
             <value key="minSize" type="size" width="938" height="436"/>
             <value key="minFullScreenContentSize" type="size" width="938" height="436"/>
             <view key="contentView" id="6">
@@ -52,11 +53,11 @@
                     <scrollView fixedFrame="YES" horizontalLineScroll="42" horizontalPageScroll="10" verticalLineScroll="42" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47">
                         <rect key="frame" x="20" y="60" width="440" height="356"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <clipView key="contentView" ambiguous="YES" drawsBackground="NO" id="JNv-v6-ywB">
+                        <clipView key="contentView" drawsBackground="NO" id="JNv-v6-ywB">
                             <rect key="frame" x="1" y="1" width="438" height="354"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <tableView verticalHuggingPriority="750" ambiguous="YES" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" rowHeight="40" id="48" customClass="KeyTableView">
+                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" rowHeight="40" id="48" customClass="KeyTableView">
                                     <rect key="frame" x="0.0" y="0.0" width="438" height="354"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
@@ -65,7 +66,6 @@
                                     <tableColumns>
                                         <tableColumn identifier="enabled" editable="NO" width="20" minWidth="20" maxWidth="1000" id="50">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
-                                                <font key="font" metaFont="message" size="11"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                             </tableHeaderCell>
@@ -75,9 +75,8 @@
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </textFieldCell>
                                         </tableColumn>
-                                        <tableColumn identifier="patch" editable="NO" width="412" minWidth="8" maxWidth="1000" id="49">
+                                        <tableColumn identifier="patch" editable="NO" width="403" minWidth="8" maxWidth="1000" id="49">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
-                                                <font key="font" metaFont="message" size="11"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                             </tableHeaderCell>
@@ -105,7 +104,7 @@
                     <button verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="57">
                         <rect key="frame" x="14" y="12" width="104" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <buttonCell key="cell" type="push" title="Add Patch" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="225">
+                        <buttonCell key="cell" type="push" title="Add Rule" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="225">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -127,7 +126,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                         <popUpButtonCell key="cell" type="push" title="Item1" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="63" id="227">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="menu"/>
                             <menu key="menu" title="OtherViews" id="61">
                                 <items>
                                     <menuItem title="Item1" state="on" id="63"/>
@@ -145,7 +144,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                         <popUpButtonCell key="cell" type="push" title="Item1" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="67" id="228">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="menu"/>
                             <menu key="menu" title="OtherViews" id="71">
                                 <items>
                                     <menuItem title="Item1" state="on" id="67"/>
@@ -173,7 +172,7 @@
                         <font key="font" metaFont="system"/>
                         <tabViewItems>
                             <tabViewItem label="Channels" identifier="" id="142">
-                                <view key="view" ambiguous="YES" id="144">
+                                <view key="view" id="144">
                                     <rect key="frame" x="10" y="33" width="438" height="245"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -182,7 +181,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <popUpButtonCell key="cell" type="push" title="Item1" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="163" id="230">
                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
+                                                <font key="font" metaFont="menu"/>
                                                 <menu key="menu" title="OtherViews" id="167">
                                                     <items>
                                                         <menuItem title="Item1" state="on" id="163"/>
@@ -251,7 +250,7 @@
                                             <rect key="frame" x="62" y="26" width="267" height="25"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <sliderCell key="cell" continuous="YES" alignment="left" minValue="-36" maxValue="36" tickMarkPosition="below" numberOfTickMarks="7" sliderType="linear" id="232">
-                                                <font key="font" metaFont="user"/>
+                                                <font key="font" usesAppearanceFont="YES"/>
                                             </sliderCell>
                                             <connections>
                                                 <action selector="transposeDistanceSliderChanged:" target="-2" id="195"/>
@@ -261,7 +260,7 @@
                                             <rect key="frame" x="62" y="90" width="267" height="26"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <sliderCell key="cell" continuous="YES" alignment="left" maxValue="127" doubleValue="127" tickMarkPosition="above" numberOfTickMarks="2" sliderType="linear" id="233">
-                                                <font key="font" metaFont="user"/>
+                                                <font key="font" usesAppearanceFont="YES"/>
                                             </sliderCell>
                                             <connections>
                                                 <action selector="highestAllowedNoteSliderChanged:" target="-2" id="192"/>
@@ -342,7 +341,7 @@
                                             <rect key="frame" x="62" y="137" width="267" height="25"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <sliderCell key="cell" continuous="YES" alignment="left" maxValue="127" tickMarkPosition="below" numberOfTickMarks="2" sliderType="linear" id="242">
-                                                <font key="font" metaFont="user"/>
+                                                <font key="font" usesAppearanceFont="YES"/>
                                             </sliderCell>
                                             <connections>
                                                 <action selector="lowestAllowedNoteSliderChanged:" target="-2" id="190"/>
@@ -414,7 +413,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="642" y="136" width="443" height="411"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="3840" height="2135"/>
             <view key="contentView" id="28">
                 <rect key="frame" x="0.0" y="0.0" width="443" height="411"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -440,27 +439,26 @@ DQ
                         <font key="font" metaFont="system"/>
                         <tabViewItems>
                             <tabViewItem label="Inputs" identifier="" id="33">
-                                <view key="view" ambiguous="YES" id="23">
+                                <view key="view" id="23">
                                     <rect key="frame" x="10" y="33" width="360" height="308"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <scrollView fixedFrame="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22">
                                             <rect key="frame" x="20" y="60" width="320" height="228"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <clipView key="contentView" ambiguous="YES" drawsBackground="NO" id="A8D-hA-fIf">
+                                            <clipView key="contentView" drawsBackground="NO" id="A8D-hA-fIf">
                                                 <rect key="frame" x="1" y="1" width="318" height="226"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
-                                                    <tableView verticalHuggingPriority="750" ambiguous="YES" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" id="24" customClass="KeyTableView">
+                                                    <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" id="24" customClass="KeyTableView">
                                                         <rect key="frame" x="0.0" y="0.0" width="318" height="226"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <size key="intercellSpacing" width="3" height="2"/>
                                                         <color key="backgroundColor" name="underPageBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                         <tableColumns>
-                                                            <tableColumn width="315" minWidth="107.5469970703125" maxWidth="1000" id="35">
+                                                            <tableColumn width="306" minWidth="107.5469970703125" maxWidth="1000" id="35">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Virtual MIDI Inputs">
-                                                                    <font key="font" metaFont="message" size="11"/>
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </tableHeaderCell>
@@ -525,9 +523,8 @@ DQ
                                                         <color key="backgroundColor" name="windowBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                         <tableColumns>
-                                                            <tableColumn width="315.03799438476562" minWidth="107.5469970703125" maxWidth="1000" id="29">
+                                                            <tableColumn width="306.03799438476562" minWidth="107.5469970703125" maxWidth="1000" id="29">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Virtual MIDI Outputs">
-                                                                    <font key="font" metaFont="message" size="11"/>
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </tableHeaderCell>
