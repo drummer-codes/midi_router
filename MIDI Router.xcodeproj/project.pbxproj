@@ -3,28 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		342D628C23A4D616003CBFA6 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F5C0AB170331972E018C91A3 /* Credits.html */; };
 		34D64CE4239C72BE00FD5032 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D64CE2239C72BE00FD5032 /* MainMenu.xib */; };
-		34D64CE7239C72D400FD5032 /* PatchbayDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D64CE5239C72D400FD5032 /* PatchbayDocument.xib */; };
+		34D64CE7239C72D400FD5032 /* RouterDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D64CE5239C72D400FD5032 /* RouterDocument.xib */; };
+		49DD81C92A0BD05D004CF37A /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 49DD81C72A0BD05D004CF37A /* AppIcon.icns */; };
+		49DD81CA2A0BD05D004CF37A /* DocIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 49DD81C82A0BD05D004CF37A /* DocIcon.icns */; };
 		C12C7FEB05AECD9D0066E007 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		C12C7FEF05AECD9D0066E007 /* Plus.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F598A8BE0342EE1E01B9BE79 /* Plus.tiff */; };
 		C12C7FF105AECD9D0066E007 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
-		C12C7FF205AECD9D0066E007 /* PatchbayDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C0AB14033196D6018C91A3 /* PatchbayDocument.m */; };
+		C12C7FF205AECD9D0066E007 /* RouterDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C0AB14033196D6018C91A3 /* RouterDocument.m */; };
 		C12C7FF305AECD9D0066E007 /* EndpointTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C0AB4203319CEA018C91A3 /* EndpointTableDataSource.m */; };
 		C12C7FF405AECD9D0066E007 /* KeyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C0AB460331C79F018C91A3 /* KeyTableView.m */; };
 		C12C7FF505AECD9D0066E007 /* Patch.m in Sources */ = {isa = PBXBuildFile; fileRef = F598A8A70342E28A01B9BE79 /* Patch.m */; };
 		C12C7FF605AECD9D0066E007 /* PatchTableCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = F598A8B00342E47401B9BE79 /* PatchTableCellData.m */; };
 		C12C7FF705AECD9D0066E007 /* PatchTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F598A8B30342E47401B9BE79 /* PatchTableCell.m */; };
 		C12C7FF805AECD9D0066E007 /* PatchTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F598A8BA0342E64501B9BE79 /* PatchTableDataSource.m */; };
-		C12C7FF905AECD9D0066E007 /* PatchbayController.m in Sources */ = {isa = PBXBuildFile; fileRef = C183B43703E8F7C500BCF81F /* PatchbayController.m */; };
+		C12C7FF905AECD9D0066E007 /* RouterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C183B43703E8F7C500BCF81F /* RouterController.m */; };
 		C12C7FFD05AECD9D0066E007 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B5CCF203D55FDC00317084 /* CoreMIDI.framework */; };
-		C152A6EA07559AE9004FF49E /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C152A6E907559AE9004FF49E /* AppIcon.icns */; };
 		C152A70C07559BB9004FF49E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C152A70B07559BB9004FF49E /* Cocoa.framework */; };
-		C1AB8C7C075DAF9B00C4B27B /* DocIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C1AB8C7B075DAF9B00C4B27B /* DocIcon.icns */; };
 		C1CF52D20C5CF94900D2759D /* PYMIDIEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CF52BB0C5CF94900D2759D /* PYMIDIEndpoint.m */; };
 		C1CF52D40C5CF94900D2759D /* PYMIDIEndpointDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CF52BD0C5CF94900D2759D /* PYMIDIEndpointDescriptor.m */; };
 		C1CF52D60C5CF94900D2759D /* PYMIDIEndpointSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CF52BF0C5CF94900D2759D /* PYMIDIEndpointSet.m */; };
@@ -44,15 +44,15 @@
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		34AC51A1239C6DEB00099156 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		34D64CE3239C72BE00FD5032 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		34D64CE6239C72D400FD5032 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PatchbayDocument.xib; sourceTree = "<group>"; };
-		34E5EE3923A5AEE3004F243C /* MIDI Patchbay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MIDI Patchbay.entitlements"; sourceTree = "<group>"; };
+		34D64CE6239C72D400FD5032 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RouterDocument.xib; sourceTree = "<group>"; };
+		34E5EE3923A5AEE3004F243C /* MIDI Router.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MIDI Router.entitlements"; sourceTree = "<group>"; };
+		49DD81C72A0BD05D004CF37A /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AppIcon.icns; path = "../../Library/Mobile Documents/com~apple~CloudDocs/Art/Projects/MIDI Router/Template - Icon - App-assets/AppIcon.icns"; sourceTree = "<group>"; };
+		49DD81C82A0BD05D004CF37A /* DocIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = DocIcon.icns; path = "../../Library/Mobile Documents/com~apple~CloudDocs/Art/Projects/MIDI Router/Template - Icon - Document - Centered Image-assets/DocIcon.icns"; sourceTree = "<group>"; };
 		C12C800205AECD9D0066E007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C12C800305AECD9D0066E007 /* MIDI Patchbay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MIDI Patchbay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C152A6E907559AE9004FF49E /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		C12C800305AECD9D0066E007 /* MIDI Router.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MIDI Router.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C152A70B07559BB9004FF49E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		C183B43603E8F7C500BCF81F /* PatchbayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatchbayController.h; path = "Controller Classes/PatchbayController.h"; sourceTree = "<group>"; };
-		C183B43703E8F7C500BCF81F /* PatchbayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PatchbayController.m; path = "Controller Classes/PatchbayController.m"; sourceTree = "<group>"; };
-		C1AB8C7B075DAF9B00C4B27B /* DocIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DocIcon.icns; sourceTree = "<group>"; };
+		C183B43603E8F7C500BCF81F /* RouterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouterController.h; path = "Controller Classes/RouterController.h"; sourceTree = "<group>"; };
+		C183B43703E8F7C500BCF81F /* RouterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouterController.m; path = "Controller Classes/RouterController.m"; sourceTree = "<group>"; };
 		C1B5CCF203D55FDC00317084 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
 		C1CF52B90C5CF94900D2759D /* PYMIDI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDI.h; sourceTree = "<group>"; };
 		C1CF52BA0C5CF94900D2759D /* PYMIDIEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDIEndpoint.h; sourceTree = "<group>"; };
@@ -86,8 +86,8 @@
 		F598A8BA0342E64501B9BE79 /* PatchTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PatchTableDataSource.m; path = "Controller Classes/PatchTableDataSource.m"; sourceTree = "<group>"; };
 		F598A8BB0342E64501B9BE79 /* PatchTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PatchTableDataSource.h; path = "Controller Classes/PatchTableDataSource.h"; sourceTree = "<group>"; };
 		F598A8BE0342EE1E01B9BE79 /* Plus.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Plus.tiff; sourceTree = "<group>"; };
-		F5C0AB13033196D6018C91A3 /* PatchbayDocument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PatchbayDocument.h; path = "Controller Classes/PatchbayDocument.h"; sourceTree = "<group>"; };
-		F5C0AB14033196D6018C91A3 /* PatchbayDocument.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PatchbayDocument.m; path = "Controller Classes/PatchbayDocument.m"; sourceTree = "<group>"; };
+		F5C0AB13033196D6018C91A3 /* RouterDocument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = RouterDocument.h; path = "Controller Classes/RouterDocument.h"; sourceTree = "<group>"; };
+		F5C0AB14033196D6018C91A3 /* RouterDocument.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = RouterDocument.m; path = "Controller Classes/RouterDocument.m"; sourceTree = "<group>"; };
 		F5C0AB170331972E018C91A3 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 		F5C0AB4103319CEA018C91A3 /* EndpointTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = EndpointTableDataSource.h; path = "Controller Classes/EndpointTableDataSource.h"; sourceTree = "<group>"; };
 		F5C0AB4203319CEA018C91A3 /* EndpointTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = EndpointTableDataSource.m; path = "Controller Classes/EndpointTableDataSource.m"; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		19C28FB0FE9D524F11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C12C800305AECD9D0066E007 /* MIDI Patchbay.app */,
+				C12C800305AECD9D0066E007 /* MIDI Router.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 		2A37F4AAFDCFA73011CA2CEA /* MIDI Patchbay */ = {
 			isa = PBXGroup;
 			children = (
-				34E5EE3923A5AEE3004F243C /* MIDI Patchbay.entitlements */,
+				34E5EE3923A5AEE3004F243C /* MIDI Router.entitlements */,
 				F5C0AB3903319A9B018C91A3 /* Model Classes */,
 				F5C0AB450331C788018C91A3 /* View Classes */,
 				2A37F4ABFDCFA73011CA2CEA /* Controller Classes */,
@@ -157,10 +157,10 @@
 				F598A8BA0342E64501B9BE79 /* PatchTableDataSource.m */,
 				F5C0AB4103319CEA018C91A3 /* EndpointTableDataSource.h */,
 				F5C0AB4203319CEA018C91A3 /* EndpointTableDataSource.m */,
-				F5C0AB13033196D6018C91A3 /* PatchbayDocument.h */,
-				F5C0AB14033196D6018C91A3 /* PatchbayDocument.m */,
-				C183B43603E8F7C500BCF81F /* PatchbayController.h */,
-				C183B43703E8F7C500BCF81F /* PatchbayController.m */,
+				F5C0AB13033196D6018C91A3 /* RouterDocument.h */,
+				F5C0AB14033196D6018C91A3 /* RouterDocument.m */,
+				C183B43603E8F7C500BCF81F /* RouterController.h */,
+				C183B43703E8F7C500BCF81F /* RouterController.m */,
 			);
 			name = "Controller Classes";
 			sourceTree = "<group>";
@@ -178,12 +178,12 @@
 			children = (
 				F5C0AB170331972E018C91A3 /* Credits.html */,
 				34D64CE2239C72BE00FD5032 /* MainMenu.xib */,
-				34D64CE5239C72D400FD5032 /* PatchbayDocument.xib */,
+				34D64CE5239C72D400FD5032 /* RouterDocument.xib */,
 				C12C800205AECD9D0066E007 /* Info.plist */,
 				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
 				F598A8BE0342EE1E01B9BE79 /* Plus.tiff */,
-				C152A6E907559AE9004FF49E /* AppIcon.icns */,
-				C1AB8C7B075DAF9B00C4B27B /* DocIcon.icns */,
+				49DD81C72A0BD05D004CF37A /* AppIcon.icns */,
+				49DD81C82A0BD05D004CF37A /* DocIcon.icns */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -252,9 +252,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C12C7FDE05AECD9D0066E007 /* MIDI Patchbay */ = {
+		C12C7FDE05AECD9D0066E007 /* MIDI Router */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1010468088A0A7C001DFE4F /* Build configuration list for PBXNativeTarget "MIDI Patchbay" */;
+			buildConfigurationList = C1010468088A0A7C001DFE4F /* Build configuration list for PBXNativeTarget "MIDI Router" */;
 			buildPhases = (
 				C12C7FE805AECD9D0066E007 /* Resources */,
 				C12C7FF005AECD9D0066E007 /* Sources */,
@@ -264,10 +264,10 @@
 			);
 			dependencies = (
 			);
-			name = "MIDI Patchbay";
+			name = "MIDI Router";
 			productInstallPath = "$(HOME)/Applications";
 			productName = "MIDI Patchbay";
-			productReference = C12C800305AECD9D0066E007 /* MIDI Patchbay.app */;
+			productReference = C12C800305AECD9D0066E007 /* MIDI Router.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -276,9 +276,10 @@
 		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1120;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
 			};
-			buildConfigurationList = C101046C088A0A7C001DFE4F /* Build configuration list for PBXProject "MIDI Patchbay" */;
+			buildConfigurationList = C101046C088A0A7C001DFE4F /* Build configuration list for PBXProject "MIDI Router" */;
 			compatibilityVersion = "Xcode 3.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 1;
@@ -290,7 +291,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C12C7FDE05AECD9D0066E007 /* MIDI Patchbay */,
+				C12C7FDE05AECD9D0066E007 /* MIDI Router */,
 			);
 		};
 /* End PBXProject section */
@@ -300,13 +301,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D64CE7239C72D400FD5032 /* PatchbayDocument.xib in Resources */,
+				34D64CE7239C72D400FD5032 /* RouterDocument.xib in Resources */,
 				C12C7FEB05AECD9D0066E007 /* InfoPlist.strings in Resources */,
 				C12C7FEF05AECD9D0066E007 /* Plus.tiff in Resources */,
-				C152A6EA07559AE9004FF49E /* AppIcon.icns in Resources */,
 				342D628C23A4D616003CBFA6 /* Credits.html in Resources */,
-				C1AB8C7C075DAF9B00C4B27B /* DocIcon.icns in Resources */,
 				34D64CE4239C72BE00FD5032 /* MainMenu.xib in Resources */,
+				49DD81CA2A0BD05D004CF37A /* DocIcon.icns in Resources */,
+				49DD81C92A0BD05D004CF37A /* AppIcon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,14 +319,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C12C7FF105AECD9D0066E007 /* main.m in Sources */,
-				C12C7FF205AECD9D0066E007 /* PatchbayDocument.m in Sources */,
+				C12C7FF205AECD9D0066E007 /* RouterDocument.m in Sources */,
 				C12C7FF305AECD9D0066E007 /* EndpointTableDataSource.m in Sources */,
 				C12C7FF405AECD9D0066E007 /* KeyTableView.m in Sources */,
 				C12C7FF505AECD9D0066E007 /* Patch.m in Sources */,
 				C12C7FF605AECD9D0066E007 /* PatchTableCellData.m in Sources */,
 				C12C7FF705AECD9D0066E007 /* PatchTableCell.m in Sources */,
 				C12C7FF805AECD9D0066E007 /* PatchTableDataSource.m in Sources */,
-				C12C7FF905AECD9D0066E007 /* PatchbayController.m in Sources */,
+				C12C7FF905AECD9D0066E007 /* RouterController.m in Sources */,
 				C1CF52D20C5CF94900D2759D /* PYMIDIEndpoint.m in Sources */,
 				C1CF52D40C5CF94900D2759D /* PYMIDIEndpointDescriptor.m in Sources */,
 				C1CF52D60C5CF94900D2759D /* PYMIDIEndpointSet.m in Sources */,
@@ -359,12 +360,12 @@
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		34D64CE5239C72D400FD5032 /* PatchbayDocument.xib */ = {
+		34D64CE5239C72D400FD5032 /* RouterDocument.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				34D64CE6239C72D400FD5032 /* en */,
 			);
-			name = PatchbayDocument.xib;
+			name = RouterDocument.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -375,27 +376,34 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_ENTITLEMENTS = "MIDI Patchbay.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "MIDI Router.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EDZJE3T9P5;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 9XE26GPBMG;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_USE_GCC3_PFE_SUPPORT = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MIDI Router";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.notahat.MIDIPatchBay;
-				PRODUCT_NAME = "MIDI Patchbay";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drummercodes.MIDIRouter;
+				PRODUCT_NAME = "MIDI Router";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
@@ -413,26 +421,33 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_ENTITLEMENTS = "MIDI Patchbay.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "MIDI Router.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EDZJE3T9P5;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 9XE26GPBMG;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_USE_GCC3_PFE_SUPPORT = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MIDI Router";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.notahat.MIDIPatchBay;
-				PRODUCT_NAME = "MIDI Patchbay";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drummercodes.MIDIRouter;
+				PRODUCT_NAME = "MIDI Router";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
@@ -462,11 +477,13 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -501,11 +518,13 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION_i386 = 4.0;
@@ -526,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1010468088A0A7C001DFE4F /* Build configuration list for PBXNativeTarget "MIDI Patchbay" */ = {
+		C1010468088A0A7C001DFE4F /* Build configuration list for PBXNativeTarget "MIDI Router" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1010469088A0A7C001DFE4F /* Debug */,
@@ -535,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C101046C088A0A7C001DFE4F /* Build configuration list for PBXProject "MIDI Patchbay" */ = {
+		C101046C088A0A7C001DFE4F /* Build configuration list for PBXProject "MIDI Router" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C101046D088A0A7C001DFE4F /* Debug */,

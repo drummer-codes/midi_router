@@ -1,15 +1,15 @@
 #import <Cocoa/Cocoa.h>
 
 @class Patch;
-@class PatchbayDocument;
+@class RouterDocument;
 
 
 @interface PatchTableDataSource : NSObject<NSTableViewDataSource> {
-    PatchbayDocument*	document;
+    RouterDocument*	document;
     NSMutableArray*		patchArray;
 }
 
-- (PatchTableDataSource*)initWithDocument:(PatchbayDocument*)newDocument patchArray:(NSMutableArray*)newPatchArray;
+- (PatchTableDataSource*)initWithDocument:(RouterDocument*)newDocument patchArray:(NSMutableArray*)newPatchArray;
 - (void)dealloc;
 
 - (void)setPatchArray:(NSMutableArray*)newPatchArray;

@@ -1,4 +1,4 @@
-#import "PatchbayDocument.h"
+#import "RouterDocument.h"
 #import "PYMIDI/PYMIDI.h"
 #import "Patch.h"
 #import "PatchTableCell.h"
@@ -6,7 +6,7 @@
 #import "EndpointTableDataSource.h"
 
 
-@implementation PatchbayDocument
+@implementation RouterDocument
 
 
 - (id)init
@@ -210,7 +210,7 @@
 
 - (NSString*)windowNibName
 {
-    return @"PatchbayDocument";
+    return @"RouterDocument";
 }
 
 
