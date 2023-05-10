@@ -43,7 +43,7 @@
     output = [newOutput retain];
     [output addSender:self];
     
-    isEnabled = YES;
+    isEnabled = NO;
     
     return self;
 }
@@ -177,6 +177,8 @@
 
 - (NSString*)description
 {
+    return @"";
+    
     NSMutableArray* parts = [NSMutableArray arrayWithCapacity:0];
     NSString* description;
     
