@@ -10,8 +10,8 @@
 		342D628C23A4D616003CBFA6 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F5C0AB170331972E018C91A3 /* Credits.html */; };
 		34D64CE4239C72BE00FD5032 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D64CE2239C72BE00FD5032 /* MainMenu.xib */; };
 		34D64CE7239C72D400FD5032 /* RouterDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D64CE5239C72D400FD5032 /* RouterDocument.xib */; };
-		49DD81BC2A0B7D4B004CF37A /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 49DD81BB2A0B7D4B004CF37A /* AppIcon.icns */; };
-		49DD81BE2A0B7D5F004CF37A /* DocIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 49DD81BD2A0B7D5F004CF37A /* DocIcon.icns */; };
+		49DD81C92A0BD05D004CF37A /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 49DD81C72A0BD05D004CF37A /* AppIcon.icns */; };
+		49DD81CA2A0BD05D004CF37A /* DocIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 49DD81C82A0BD05D004CF37A /* DocIcon.icns */; };
 		C12C7FEB05AECD9D0066E007 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		C12C7FEF05AECD9D0066E007 /* Plus.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F598A8BE0342EE1E01B9BE79 /* Plus.tiff */; };
 		C12C7FF105AECD9D0066E007 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -46,8 +46,8 @@
 		34D64CE3239C72BE00FD5032 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		34D64CE6239C72D400FD5032 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RouterDocument.xib; sourceTree = "<group>"; };
 		34E5EE3923A5AEE3004F243C /* MIDI Router.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MIDI Router.entitlements"; sourceTree = "<group>"; };
-		49DD81BB2A0B7D4B004CF37A /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AppIcon.icns; path = "../../Library/Mobile Documents/com~apple~CloudDocs/Art/Projects/MIDI Router/Template - Icon - App-assets/AppIcon.icns"; sourceTree = "<group>"; };
-		49DD81BD2A0B7D5F004CF37A /* DocIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = DocIcon.icns; path = "../../Library/Mobile Documents/com~apple~CloudDocs/Art/Projects/MIDI Router/Template - Icon - Document - Centered Image-assets/DocIcon.icns"; sourceTree = "<group>"; };
+		49DD81C72A0BD05D004CF37A /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AppIcon.icns; path = "../../Library/Mobile Documents/com~apple~CloudDocs/Art/Projects/MIDI Router/Template - Icon - App-assets/AppIcon.icns"; sourceTree = "<group>"; };
+		49DD81C82A0BD05D004CF37A /* DocIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = DocIcon.icns; path = "../../Library/Mobile Documents/com~apple~CloudDocs/Art/Projects/MIDI Router/Template - Icon - Document - Centered Image-assets/DocIcon.icns"; sourceTree = "<group>"; };
 		C12C800205AECD9D0066E007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C12C800305AECD9D0066E007 /* MIDI Router.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MIDI Router.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C152A70B07559BB9004FF49E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -182,8 +182,8 @@
 				C12C800205AECD9D0066E007 /* Info.plist */,
 				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
 				F598A8BE0342EE1E01B9BE79 /* Plus.tiff */,
-				49DD81BD2A0B7D5F004CF37A /* DocIcon.icns */,
-				49DD81BB2A0B7D4B004CF37A /* AppIcon.icns */,
+				49DD81C72A0BD05D004CF37A /* AppIcon.icns */,
+				49DD81C82A0BD05D004CF37A /* DocIcon.icns */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -303,11 +303,11 @@
 			files = (
 				34D64CE7239C72D400FD5032 /* RouterDocument.xib in Resources */,
 				C12C7FEB05AECD9D0066E007 /* InfoPlist.strings in Resources */,
-				49DD81BC2A0B7D4B004CF37A /* AppIcon.icns in Resources */,
 				C12C7FEF05AECD9D0066E007 /* Plus.tiff in Resources */,
 				342D628C23A4D616003CBFA6 /* Credits.html in Resources */,
-				49DD81BE2A0B7D5F004CF37A /* DocIcon.icns in Resources */,
 				34D64CE4239C72BE00FD5032 /* MainMenu.xib in Resources */,
+				49DD81CA2A0BD05D004CF37A /* DocIcon.icns in Resources */,
+				49DD81C92A0BD05D004CF37A /* AppIcon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +395,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "MIDI Router";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
@@ -438,6 +439,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "MIDI Router";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
